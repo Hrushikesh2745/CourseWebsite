@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(45deg,purple,dodgerblue);
+    display: flex;
+    height: 100vh;
+}
+
+.container h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+}
+.container{
+    background:linear-gradient(45deg,dodgerblue,white,purple);
+    width:12cm;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 170px;
+    
+   
+}
+label{
+    width: 140px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+input{
+    width: 7cm;
+    margin:5px;
+    padding: 4px;
+    font-weight: bold;
+    border: 1px solid rgb(18, 18, 18);
+
+}
+input#submit{
+    width: 3cm;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+input#submit:hover{
+    background-color: rgb(202, 240, 9);
+}
